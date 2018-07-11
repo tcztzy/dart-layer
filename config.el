@@ -1,9 +1,9 @@
-;;; config.el --- Go Layer config File for Spacemacs
+;;; config.el --- Dart Layer config File for Spacemacs
 ;;
-;; Copyright (c) 2012-2017 Sylvain Benner & Contributors
+;; Copyright (c) 2012-2018 Sylvain Benner & Contributors
 ;;
-;; Author: Sylvain Benner <sylvain.benner@gmail.com>
-;; URL: https://github.com/syl20bnr/spacemacs
+;; Author: Tang Ziya <tcztzy@gmail.com>
+;; URL: https://github.com/tcztzy/dart-layer
 ;;
 ;; This file is not part of GNU Emacs.
 ;;
@@ -12,3 +12,4 @@
 ;; variables
 
 (setq dart-enable-analysis-server t)
+(spacemacs|defvar-company-backends dart-mode)

@@ -1,16 +1,18 @@
-#+TITLE: DEPRICATED. For dart you can use lsp-mode
-
-Dart layer
+#+TITLE: Dart layer
 
 * Table of Contents                                       :TOC_4_gh:noexport:
- - [[#description][Description]]
- - [[#install][Install]]
+- [[#description][Description]]
+- [[#install][Install]]
+- [[#todo][TODO]]
 
 * Description
 This layer provides syntax highlighting and syntax checking via [[http://www.flycheck.org/en/latest/languages.html#yaml][flycheck]] for Dart files.
 Also its add autocomplete via company provider
 
 * Install
-To use this configuration layer, add it to your =~/.spacemacs=. You will need to
-add =dart= to the existing =dotspacemacs-configuration-layers= list in this
-file.
+To use this configuration layer, clone this project into =~/.emacs.d/private/=
+and add =(configuration-layer/lazy-install 'dart :extensions '("\\(\\.dart\\'\\)" dart-mode))=
+to your =dotspacemacs/user-init= function in =~/.spacemacs=.
+
+* TODO
+lsp-mode
